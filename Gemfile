@@ -2,6 +2,16 @@ source "https://rubygems.org"
 
 ruby "3.2.1"
 
+#activeadmin is for admisistration
+gem 'activeadmin'
+
+# Plus integrations with:
+gem 'devise'
+gem 'cancancan'
+gem 'draper'
+
+gem 'sass-rails'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.2"
 
